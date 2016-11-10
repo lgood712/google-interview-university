@@ -7,7 +7,6 @@ Table of Contents
 -	[About Google](#about-google)
 -	[Interview Process & General Interview Prep](#interview-process--general-interview-prep)
 -	[Prerequisite Knowledge](#prerequisite-knowledge)
--	[The Daily Plan](#the-daily-plan)
 -	[Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
 -	[Data Structures](#data-structures)
 	-	[Arrays](#arrays)
@@ -106,7 +105,7 @@ About Google
 	-	[ ] [Google's Secret Study To Find Out Our Needs](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
 	-	[ ] [Google Search Will Be Your Next Brain](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
 	-	[ ] [The Deep Mind Of Demis Hassabis](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
--	[ ] [Book: How Google Works](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
+-	[x] [Book: How Google Works](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
 -	[ ] [Made by Google announcement - Oct 2016 (video)](https://www.youtube.com/watch?v=q4y0KOeXViI)
 
 Interview Process & General Interview Prep
@@ -145,23 +144,6 @@ Interview Process & General Interview Prep
 	-	[ ] How to Get a Job at the Big 4:
 		-	[ ] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
 	-	[ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
-
-The Daily Plan
---------------
-
-Some subjects take one day, and some will take multiple days. Some are just learning with nothing to implement.
-
-Each day I take one subject from the list below, watch videos about that subject, and write an implementation in: - C - using structs and functions that take a struct * and something else as args. - C++ - without using built-in types - C++ - using built-in types, like STL's std::list for a linked list - Python - using built-in types (to keep practicing Python) - and write tests to ensure I'm doing it right, sometimes just using simple assert() statements - You may do Java or something else, this is just my thing.
-
-Why code in all of these? - Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember) - Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python)) - Make use of built-in types so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
-
-I may not have time to do all of these for every subject, but I'll try.
-
-You can see my code here: - [C](https://github.com/jwasham/practice-c) - [C++](https://github.com/jwasham/practice-cpp) - [Python](https://github.com/jwasham/practice-python)
-
-You don't need to memorize the guts of every algorithm.
-
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
 
 Prerequisite Knowledge
 ----------------------
